@@ -1,0 +1,19 @@
+.p-attributes-main-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+  align-content: space-between;
+}
+.p-attributes-entry-wrap{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.p-attributes-content-wrap{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.p-attributes-button-wrap{
+  margin-top: auto;
+  margin-bottom: 20px;
+}

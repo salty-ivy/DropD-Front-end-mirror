@@ -1,0 +1,86 @@
+.attribute-text-container{
+    width:300px;
+    /*position: absolute;*/
+    /*top: 17%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+/* .attribute-wrapper{
+
+} */
+.attribute-text{
+    font-size: 32px;
+    width: 250px;
+    font-weight: 600;
+    color: #4e3292;
+    margin-bottom: 15px;
+}
+.attribute-description{
+        width: 230px;
+        /*position: absolute;*/
+        /*top: 28%;*/
+        font-size: 14px;
+        font-weight: 400;
+        /*left: 42%;*/
+        /*transform: translate(-50%, -50%);*/
+        color: #6a7587;
+}
+.attribute-container{
+    width:300px;
+    margin-bottom: 40px;
+    /*position: absolute;*/
+    /*top: 55%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+.attributeicons-position{
+    width:300px;
+    display: flex;
+    justify-content: start ;
+    position: relative;
+    top:25px;
+    /* margin-bottom: 20px; */
+    /*position: absolute;*/
+    /*top: 84%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+.attribute-icons{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+.attribute-icons .delete-attr-icon{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.attributes-main-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+  align-content: space-between;
+}
+.attributes-entry-wrap{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.attributes-content-wrap{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.attributes-button-wrap{
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+.edit-user-details-page .attribute-container{
+  width: 100%;
+  margin-bottom: 0px;
+}
+.edit-user-details-page .attribute-container > img{
+  width: 340px;
+}

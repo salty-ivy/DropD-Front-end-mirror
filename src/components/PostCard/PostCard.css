@@ -1,0 +1,61 @@
+.timeline-card-wrapper{
+    /* width:100vw; */
+    height: auto;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.user-timeline-details{
+    height:91px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 0px 17px 17px;
+}
+.user-name{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.user-time-details{
+    font-size: 10px;
+    font-weight: 400;
+    color: #6A7587;
+}
+.user-data{
+    font-size: 12px;
+    font-weight: 600;
+    color: #6A7587;
+}
+.card-footer-wrapper{
+    /* width:100vw; */
+    height: 30px;
+    padding-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer-details{
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    bottom:5px;
+    left: 10px;
+    color:#6A7587;
+}
+.logo-text{
+    font-size: 8px;
+    font-weight: 400;
+    color: #6A7587;
+}
+.postcard-profile-pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 0;
+}
+.card-body-image img{ width: 100%; max-width: 100%;}

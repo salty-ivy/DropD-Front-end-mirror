@@ -1,0 +1,408 @@
+.inner-pages-container{
+	width: 100vw;
+	min-height: calc(100vh - 65px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F6F6F6;
+}
+.inner-pages-container-wrap{
+	width: 340px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex: 1;
+	margin: 0px auto;
+}
+.pnkbg .navbar-wrapper{
+	background-color: #E1D7F0 !important;
+}
+.flics-page-container .half-pnk{
+	width: 100%;
+    margin-bottom: 0px;
+    margin-top: -1px;
+    padding: 0px 20px 70px 20px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: #E1D7F0;
+    box-sizing: border-box;
+}
+.page-title{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #000000;
+	text-align: left;
+}
+.page-desc p{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #6A7587;
+}
+.flics-page-container .button-wrap{
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flics-wallet-balance{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+}
+.flics-wallet-balance span{	
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4E3292;
+}
+.flics-wallet-balance span img{
+	width: 10px;
+	margin: 0px 5px;
+}
+.flics-popup-conainer{
+	min-height: 160px;
+	margin-top: -65px;
+	margin-bottom: 30px;
+	padding: 27px 20px 20px 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+	border-radius: 18px;
+	box-sizing: border-box;
+}
+.add-drpd-btn-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.add-drpd-btn-wrap span:first-child{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #EC1C80;
+}
+.add-drpd-btn-wrap .add-drpd-btn{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	color: #46164D;
+	position: relative;
+}
+.add-drpd-btn-wrap .add-drpd-btn .plus-icon{
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	top: -48px;
+	left: -50%;
+	right: -50%;
+	margin: 0px auto;
+	justify-content: space-around;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #EC1C80;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+}
+.flics-popup-conainer .balance{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 40px;
+	color: #4E3292;
+}
+.flics-popup-conainer .balance span{
+	margin: auto 5px;
+}
+.flics-popup-conainer .lock-in{
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #C4C4C4;
+}
+.flics-popup-conainer .info-banner{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #ffffff;
+	padding: 5px 15px;
+	background: #EC1C80;
+	border: 1px solid #EC1C80;
+	box-sizing: border-box;
+	border-radius: 32px;
+}
+.flics-popup-conainer .info-banner .deployed-drpd{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	margin-left: 5px;
+}
+.flics-tabs-container .flics-options button{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #46164D;
+	padding: 11px 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+	border-radius: 18px;
+	border: none;
+}
+.flics-tabs-container .flics-options button span{
+	margin-top: auto;
+	margin-bottom: auto
+}
+.flics-tabs-container .flics-options button span.tab-icon{
+	width: 24px;
+}
+.flics-txt{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+}
+
+
+/*buy drpd*/
+.amount-input-field{
+	margin-top: 10px;
+}
+.amount-input-field #outlined-basic{
+	width: 100%;
+	height: 46px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	padding: 18px 15px;
+	background: #FFFFFF;
+	border: 1px solid #6A7587;
+	box-sizing: border-box;
+	border-radius: 12px;
+	margin-bottom: 24px;
+}
+.buy-drpd-range-lbl{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flics-lbl{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	color: #6A7587;
+}
+.drpd-range-wrap{
+	width: 320px;
+	margin: 0px auto
+}
+/*connect wallet*/
+.wallet-options button{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #46164D;
+	padding: 3px 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+	border-radius: 18px;
+	border: none;
+}
+.wallet-options button span{
+	margin-top: auto;
+	margin-bottom: auto
+}
+.wallet-options button span.wallet-option-icon{
+	width: 40px;
+	margin-right: 20px;
+}
+.wallet-options button span.wallet-option-icon img{
+	width: 100%;
+	height: auto;
+}
+
+/*share flics*/
+.flics-page-container .input-field{
+	margin-bottom: 15px;
+}
+.flics-page-container .input-field #outlined-basic{
+	height: 38px;
+	background: #FFFFFF;
+	border: 1px solid #6A7587;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+.flics-page-container .input-field .lbl{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	color: #6A7587;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	display: block;
+}
+/*flics history*/
+.flics-page-container .flics-details .flics-popup-conainer{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.flics-page-container .flics-details .flics-popup-conainer:first-child{
+	margin-top: -65px;
+}
+.flics-page-container .lbl-12{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+}
+.flics-details .flics-popup-conainer .row{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 5px;
+}
+.flics-details .flics-popup-conainer .row .lbl-12{
+	width: 80px;
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.flics-details .flics-popup-conainer .row{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+}
+.flics-details .flics-popup-conainer .user-details{
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+}
+.flics-details .flics-popup-conainer .user-details .img-circle{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.flics-details .flics-popup-conainer .user-details .img-circle img{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 0;
+}
+.flics-details .flics-popup-conainer .user-details .user-name{
+	width: auto;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #484848;
+	padding-left: 10px;
+}
+.flics-details .flics-popup-conainer .flics-h-info{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+}
+.flics-details .flics-popup-conainer .flics-his-drpd{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #4E3292;
+}
+.flics-details .flics-popup-conainer .flics-his-drpd img{
+	width: 10px;
+	margin-right: 5px;
+}
+/*shared flics*/
+.flics-details .flics-popup-conainer .shared-flics-between{
+	justify-content: space-between;
+}
+.flics-details .flics-popup-conainer .shared-flics-between .user-details{
+	width: 40%;
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.flics-details .flics-popup-conainer .shared-flics-between .user-details span{
+	margin: 0px auto;
+	display: block;
+}
+.flics-details .flics-popup-conainer .shared-flics-between .user-details .img-circle{
+	width: 60px;
+	height: 60px;
+}	
+.flics-details .flics-popup-conainer .shared-flics-between .user-details .user-name{
+	padding-left: 0px;
+}
+.flics-details .flics-popup-conainer .shared-flics.flics-his-drpd{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 32px;
+}
+.flics-details .connection-icon{
+	margin-top: 24px;
+}
+.flics-details .row.signed-row{
+	justify-content: space-between;
+}
+.flics-details .row.signed-row span{
+	width: 45%;
+}
+.flics-details .row.signed-row .signed{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	color: #6A7587;
+	padding: 14px 10px;
+	border: 1px solid #00FFA3;
+ 	box-sizing: border-box;
+	border-radius: 12px;
+}
+.flics-details .row.signed-row .signed-pending{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	color: #6A7587;
+	padding: 14px 10px;
+	border: 1px solid #6A7587;
+	box-sizing: border-box;
+	border-radius: 12px;
+}

@@ -1,0 +1,66 @@
+  .login-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+     /* background-color: #E1D7F0; */
+ }
+ .login-field-wrapper{
+     height:30vh;
+     /* position: absolute;
+     left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); */
+     display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto; 
+ } 
+ .input-label{
+     padding-left: 18px;
+     padding-bottom: 5px;
+     font-size: 10px;
+     font-weight: 400;
+     color: #6A7587;
+ }
+
+ .login-text{
+    padding-bottom: 20%;
+    color: #4E3292;
+    font-size: 32px;
+    font-weight: 600;
+ }
+ .logo-container{
+     padding-top: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ #login-dropd-logo{
+    width:122px;
+ } 
+ .footer-selector{
+    position: absolute;
+    left: 50%;
+     bottom: 2%;
+     transform: translate(-50%, -50%);
+ }
+ .separator{
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ .email-login-button{
+     position: absolute;
+     left: 10%;
+     top: 90%;
+     transform: translate(-50%, -50%);
+ }
+ .otp-wrapper{
+    margin-top: 35px;
+ }
+ /* .button-wrap{
+    position: absolute;
+    left: 50%;
+     top: 90%;
+     transform: translate(-50%, -50%);
+ } */

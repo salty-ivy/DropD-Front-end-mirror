@@ -1,0 +1,65 @@
+{
+    "create" : {
+        "1": "Create Account"
+    },
+    "mobile-no" : {
+        "1": "Enter Mobile No."
+    },
+    "send-otp" : {
+        "1": "Send OTP"
+    },
+    "lets-login" : {
+        "1": "Let's Login"
+    },
+    "login-with-email" : {
+        "1": "Login With Email"
+    },
+    "enter-your-email" : {
+        "1": "Enter Your Email"
+    },
+    "login" : {
+        "1": "Login"
+    },
+    "project" : {
+        "1": "PROJECT"
+    },
+    "team" : {
+        "1": "TEAM"
+    },
+    "roadmap" : {
+        "1": "ROADMAP"
+    },
+    "faq" : {
+        "1": "FAQ"
+    },
+    "select-interest" : {
+        "1": "Select Interests"
+    },
+    "select-interest-description" : {
+        "1": "Select 8 interests to understand you better"
+    },
+    "proceed" : {
+        "1": "Proceed"
+    },
+    "share-email" : {
+        "1": "Share your email address"
+    },
+    "share-email-description" : {
+        "1": "Please share your email address to proceed"
+    },
+    "enter-your-nick-name" : {
+        "1": "Enter Your Nick Name"
+    },
+    "nick-name" : {
+        "1": "Nick Name"
+    },
+    "your-gender" : {
+        "1": "Your Gender"
+    },
+    "we-welcome-everyone" : {
+        "1": "We welcome everyone"
+    },
+    "your-gender-preferences" : {
+        "1": "Your Gender Preferences"
+    }
+}

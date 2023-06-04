@@ -1,0 +1,116 @@
+.inner-pages-container{
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F6F6F6;
+}
+.inner-pages-container-wrap{
+	width: 340px;
+	padding-top: 15px;
+}
+.page-title{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #000000;
+	text-align: left;
+}
+.create-view-pages-tab-wrap{
+	margin-bottom: 20px;
+}
+.create-view-pages-tab-wrap button{
+	width: 140px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: #6A7587;
+	background: #FFFFFF;
+	border: 1px solid #6A7587;
+	box-sizing: border-box;
+	border-radius: 12px;
+	padding: 4px 4px;
+	margin-right: 15px;
+	position: relative;
+}
+.create-view-pages-tab-wrap button span{ 
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 4px;
+	left: 8px;
+}
+.pages-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-top: 15px;
+}
+.pages-container .page-col{
+	width: 150px;
+	text-align: center;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.pages-container .page-col h3{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.pages-container .page-col .page-likes{
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+.pages-container .page-col .page-likes span{
+	font-size: 12px;
+	font-weight: 600;
+}
+.pages-container .page-col .round-icon{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0px auto 0px auto;
+	transform: translateY(-10px);
+}
+.pages-container .page-col .page-feature-img{
+	height: 115px;
+	width: 100%;
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.pages-container .page-col .round-icon img,
+.pages-container .page-col .page-feature-img img{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 0;
+}
+.pages-container .page-col .like-page-button{	
+	width: 130px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #ffffff;
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+	background: #EC1C80;
+	border: 1px solid #EC1C80;
+	box-sizing: border-box;
+	padding: 4px 4px;
+	border-radius: 12px;
+}

@@ -1,0 +1,129 @@
+.inner-pages-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+.inner-pages-container-wrap{
+    width: 340px;
+    padding-top: 15px;
+}
+.page-title{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+.section-label{
+    font-size: 10px;
+    line-height: 14px;
+    color: #6A7587;
+    margin-bottom: 5px;
+}
+.edit-user-details-page .entry-wrap{
+    width: 100%;
+    margin: 0px 0px 20px 0px; 
+}
+.edit-user-details-page .content-wrap{
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+.edit-user-details-page .upload-cover-image{
+    position: relative;
+}
+.edit-user-details-page .upload-cover-image .edit-icon{
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+}
+.edit-user-details-page .upload-profile-image {
+    position: relative;
+}
+.edit-user-details-page .upload-profile-image .edit-icon{
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+}
+.edit-user-details-page .upload-profile-image-container .name-wrap{
+    margin: auto 0px auto 15px;
+}
+.edit-user-details-page .upload-profile-image-container .name-wrap .nick-name {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #AFAFAF;
+}
+.edit-user-details-page .upload-profile-image-container .name-wrap .name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #484848;
+}
+.edit-user-details-page .upload-profile-image-container .name-wrap span{
+    display: block;
+}
+.edit-user-details-page .upload-gallery-images-wrap{
+    padding: 20px 20px;
+    background-color: #E1D7F0;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.edit-user-details-page .upload-gallery-images-wrap .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+.edit-user-details-page .upload-gallery-images-wrap .upload-gallery-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.edit-user-details-page .upload-gallery-images-wrap  .image-icons-wrap{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.edit-user-details-page .upload-gallery-images-wrap  .image-icons-wrap .remove-img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.edit-profile-nav-menu button{
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 15px 0px;
+    margin: 5px 0px;
+    text-align: left;
+    border-bottom: 0.5px solid #E5E5E5;
+    background-color: transparent;
+}
+.action-button-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.action-button-wrap button{
+    width: 48% !important;
+}
+.edit-user-details-page .interest-container{
+    max-height: inherit;
+    overflow-y: visible;
+}

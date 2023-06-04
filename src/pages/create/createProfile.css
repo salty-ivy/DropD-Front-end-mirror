@@ -1,0 +1,16 @@
+.create-page-wrapper{
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - 100px);
+}
+.input-label{
+     padding-left: 18px;
+     padding-bottom: 5px;
+     font-size: 10px;
+     font-weight: 400;
+     color: #6A7587;
+}
+
+.otp-wrapper{
+    margin-top: 35px;
+}

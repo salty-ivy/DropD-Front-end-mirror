@@ -1,0 +1,97 @@
+.clubs-page-wrapper{
+    /* height:auto; */
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.club-description{
+    width:300px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    background-color: white;
+    margin-top: 20px;
+}
+.profile-description-text{
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6A7587;
+}
+.iconalignment{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.club-button{
+    background-color: white;
+    color:#6A7587;
+    border:1px solid #EC1C80;
+    border-radius: 12px;
+    width:150px;
+    height: 26px;
+    float: right;
+    margin-right: 10px;
+}
+.avatar-container{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: pink;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.profile-image-container{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 0;
+}
+.profile-cover-image{
+    width:100vw;
+    height: 241px;
+    border-radius: 10px 10px 0px 0px;
+}
+.online-status{
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: #90EE90;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.couple-image-position{
+    float: right;
+    padding-right: 20px ;
+    padding-top: 10px;
+}
+.selected-button-styles{
+    background-color: #EC1C80;
+    color:white;
+    border: 1px solid #EC1C80;
+    border-radius: 12px;
+    width:87px;
+    height: 26px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 55px;
+}
+.club-avatar-container{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.nick-name-alignment{
+    position: relative;
+    top:30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.club_friend_button-alignment{
+    position: relative;
+    top:12px
+}

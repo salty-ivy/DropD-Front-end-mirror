@@ -1,0 +1,42 @@
+.edit-dating-option-wrap{
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid #E5E5E5;
+}
+.edit-dating-option-wrap .selected-dating-option{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.edit-dating-option-wrap .edit-icon{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.edit-dating-option-wrap .attr-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.edit-dating-option-wrap .attr-row .selected-attr img,
+.edit-dating-option-wrap .attr-row .selected-attr span{
+  display: block;
+}
+.edit-dating-option-wrap .attr-row .selected-attr span{
+  font-size: 8px;
+}
+.edit-dating-option-wrap .selected-zone{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row
+}
+.edit-dating-option-wrap .selected-zone span{
+  margin: auto 0px;
+}

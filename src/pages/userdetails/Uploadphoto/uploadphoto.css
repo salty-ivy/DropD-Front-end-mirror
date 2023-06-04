@@ -1,0 +1,71 @@
+.uploadphoto-wrapper {
+  min-height: 100vh;
+  /*padding: 0px 20px;*/
+  width: 300px;
+}
+
+.uploadphoto-text-container{
+    width:300px;
+  
+}
+.uploadphoto-text{
+    font-size: 32px;
+    width: 250px;
+    font-weight: 600;
+    color: #4e3292;
+    margin-bottom: 15px;
+}
+.uploadphoto-description{
+        width: 300px;
+        /*position: absolute;*/
+        /*top: 25%;*/
+        font-size: 14px;
+        font-weight: 400;
+        /*left: 50%;*/
+        /*transform: translate(-50%, -50%);*/
+        color: #6a7587;
+}
+.upload-photo-container{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*width: 300px;*/
+    margin-bottom: 10px;
+    /*position: absolute;*/
+    /*top: 58%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+.upload-img-btn{
+    width: 140px;
+    height: 203px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo-icons-wrap{
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-around;
+    /* top:70px; */
+    position: relative;
+    /*border: 1px solid #000000;*/
+}
+.photo-icons-wrap .placeholder-icon{
+    width: 48px;
+    height: 48px;
+    margin: auto;
+}
+.photo-icons-wrap .icon-btm-right{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}

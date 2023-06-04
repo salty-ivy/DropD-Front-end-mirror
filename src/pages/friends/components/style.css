@@ -1,0 +1,174 @@
+.inner-pages-container{
+	width: 100vw;
+	min-height: calc(100vh - 65px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F6F6F6;
+}
+.inner-pages-container-wrap{
+	width: 340px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.page-title{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #000000;
+	text-align: left;
+}
+.friends-tabs-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.friends-tabs-wrap button{
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000000;
+	border: none;
+	background-color: transparent;
+}
+.friends-tabs-wrap button.active{
+	font-weight: 600;
+}
+.friend-search-form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.friend-search-form #outlined-basic{
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	padding: 18px 15px;
+	background: #FFFFFF;
+	border: 1px solid #6A7587;
+	box-sizing: border-box;
+	border-radius: 12px;
+	margin-bottom: 24px;
+}
+.desc-field #outlined-basic{
+	height: 150px;
+}
+.friend-search-form{
+	position: relative;
+}
+.friend-search-button{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 9px;
+	right: 9px;
+}
+.friend-list-container .user-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 0.5px solid #E5E5E5;
+	position: relative;
+}
+.friend-list-container .user-row .u-thumb{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto 0px;
+}
+.friend-list-container .user-row .u-thumb img{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 0;
+}
+.friend-list-container .user-row .u-details{
+	width: 280px;
+	margin: auto 0px;
+	padding-left: 20px;
+	padding-right: 24px;
+	box-sizing: border-box;
+}
+.friend-list-container .user-row .u-details .u-name{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #484848;
+}
+.verified-icon{
+	display: inline-block;
+	margin-left: 10px;
+}
+.friend-list-container .user-row .menu-btn{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: -50%;
+	bottom: -50%;
+	right: 0px;
+	margin: auto 0px;
+}
+.friend-list-container .user-row .menu-btn button{
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+.friend-action-menu-container{
+	width: 100%;
+	left: 0px;
+	top: 60px;
+	position: absolute;
+	padding: 30px 30px 50px 30px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	z-index: 10;
+	display: none;
+}
+.friend-action-menu-container > p{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 0.5px solid #E5E5E5;
+}
+.friend-action-menu-wrap > div{
+	font-size: 16px;
+	line-height: 20px;
+	color: #484848;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 0.5px solid #E5E5E5;
+}
+.a-r-btn-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.add-reject-button{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	width: 47%;
+	background-color: white;
+    border: 1px solid #EC1C80;
+    border-radius: 12px;
+    color: #6a7587;
+}

@@ -1,0 +1,84 @@
+
+body{
+    font-family: 'Inter';
+    margin: 0px;
+    background-color:  #E1D7F0;
+}
+#root{ max-width: 500px; margin: 0 auto;}
+.small-text{
+    font-size: 10px;
+    font-weight: 400;
+    color: #6A7587;
+}
+.dropd-pink{
+  color:#EC1C80
+}
+.dropd-violet{
+  color: #4E3292;
+}
+.dropd-purple{
+  color: #46164D;
+}
+
+.error{ 
+  color: #C22A1C;
+  font-size: 14px;
+  margin-bottom: 20px;
+ }
+.success{ color: #3D9634;}
+
+.bg-pink,
+.filled-pink,
+.button-pink{
+  background-color: #EC1C80;
+}
+
+.bg-white{
+  background: #fff;
+}
+.border-pink{
+  border: 1px solid #EC1C80;
+}
+.border-round-12{
+  border-radius: 12px;
+}
+
+.button{
+  border-radius: 12px;
+  min-width: 90px;
+  padding: 5px 15px;
+  color: #6A7587;
+  text-align: center;
+}
+
+.selected-button-styles{
+  background-color: #EC1C80;
+  color:white;
+  border: 1px solid #EC1C80;
+  border-radius: 12px;
+  width:87px;
+  height: 26px;
+  float: right;
+  margin-right: 5px;
+  margin-top: 55px;
+}
+.floatingToolbar{
+  width:90%;
+  height: 37px;
+  background-color: pink;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  z-index: 1000;
+  left: 50%;
+  top: 95%;
+  border-radius: 18px;
+}
+#cursor{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    input, select, textarea {
+      font-size: 16px;
+    }
+  }

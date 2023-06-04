@@ -1,0 +1,5 @@
+.create-post-wrapper{
+    height: 100vh;
+    background-color: #F7F7F7;
+    flex-direction: column;
+}

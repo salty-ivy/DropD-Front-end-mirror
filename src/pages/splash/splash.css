@@ -1,0 +1,10 @@
+.splash-page-wrapper{
+    height: 100vh;
+    /* background-color: #E1D7F0; */
+}
+.dropd-logo{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,43 @@
+.comment-card-wrapper{
+    width: 90%;
+    min-height: 78px;
+    background-color: white;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+.comment-user-name{
+    font-size: 12px;
+    font-weight: 600;
+    color: #484848;
+}
+.comment-user-comment{
+    font-size: 12px;
+    padding-top: 3px;
+    font-weight: 400;
+    color: #6A7587;
+}
+.comment-user-timestamp{
+    font-size: 10px;
+    padding-top: 3px;
+    font-weight: 400;
+    color: #AFAFAF;
+}
+.comment-details-container{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.comment-avatar-container-box{
+    position: relative;
+    left:10px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    padding-top: 10px;
+}
+.comment-textfield-position{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:90%
+}

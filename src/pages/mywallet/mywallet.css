@@ -1,0 +1,332 @@
+.wallet-popup-conainer{
+	min-height: 160px;
+	margin-top: -65px;
+	margin-bottom: 30px;
+	padding: 27px 20px 20px 20px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgb(0 0 0 / 6%);
+	border-radius: 18px;
+	box-sizing: border-box;
+}
+.wallet-popup-conainer .balance,
+.income-popup-conainer .balance{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #4E3292;
+}
+.wallet-popup-conainer .balance span,
+.income-popup-conainer .balance span {
+    margin: auto 5px;
+}
+/*rewards*/
+.drpd-reward-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.drpd-reward-container{
+	margin-bottom: 30px;
+}
+.drpd-reward-container > .r-title{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #46164D;
+	margin-bottom: 20px;
+	display: block;
+}
+.drpd-reward-container .drpd-reward-wrap {
+	position: relative;
+}
+.drpd-reward-container .drpd-reward-wrap > div{
+	position: relative;
+}
+.drpd-reward-wrap > div > span:first-child{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	color: #6A7587;
+	margin-bottom: 10px;
+}
+.drpd-reward-wrap > div > span{
+	display: block;
+	text-align: center;
+}
+.drpd-reward-wrap .r-c-icon{
+	width: 36px;
+	height: 36px;
+	padding: 5px 5px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+.drpd-reward-wrap .reward-unlocked .r-c-icon{
+	background-color: #EC1C80;
+}
+.drpd-reward-wrap:before{
+	content: "";
+	display: block;
+	width: 100%;
+    height: 1px;
+    background-color: #E5E5E5;
+    position: absolute;
+    bottom: 17px;
+    left: 10px;
+}
+.wallet-tabs-container button.claimDrpd{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+	border: 1px solid #EC1C80;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+	border-radius: 18px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #EC1C80;
+}
+.wallet-tabs-container button.claimDrpd .pt-14{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #46164D;
+}
+.wallet-tabs-container button.claimDrpd .pt-12{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #EC1C80;
+}
+.wallet-tabs-container button.claimDrpd > span:first-child{
+	width: 80%;
+	text-align: left;
+}
+.wallet-tabs-container button.claimDrpd span:first-child > span{
+	display: block;
+}
+.wallet-tabs-container button.claimDrpd > span:last-child{
+	width: 20%;
+	text-align: right;
+	margin: auto 0px;
+}
+.wallet-tabs-container button.transaction {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #46164D;
+    padding: 11px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 6%);
+    border-radius: 18px;
+    border: none;
+}
+.wallet-tabs-container button.transaction span{
+	margin: auto 0px;
+}
+.wallet-tabs-container button.transaction span.tab-icon{
+	height: 24px;
+}
+.income-card-container{
+	background-color: #ffffff;
+	box-shadow: 0px 2px 4px rgb(0 0 0 / 6%);
+	border-radius: 18px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.income-popup-conainer{
+	min-height: 160px;
+	margin-bottom: 10px;
+	padding: 27px 20px 20px 20px;
+	background-color: #E1D7F0;
+	box-shadow: 0px 4px 10px rgb(0 0 0 / 6%);
+	border-radius: 18px;
+	box-sizing: border-box;
+}
+.income-popup-conainer .income-formula{
+	width: 100%;
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #6A7587;
+	padding: 15px 15px;
+	background: rgba(255, 255, 255, 0.37);
+	border-radius: 73px;
+	box-sizing: border-box;
+}
+.income-popup-conainer .income-formula .txt-blue{
+	color: #EC1C80;
+}
+.income-popup-conainer .income-formula .txt-blue.sign{
+	margin: 0px 10px;
+}
+.wallet-monthly-table .tr{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.wallet-monthly-table table{
+	width: 100%;
+	border-spacing: 0px;
+}
+.wallet-monthly-table th{
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	color: #6A7587;
+	text-align: left;
+	padding: 10px;
+}
+.wallet-monthly-table td{
+	padding: 10px;
+}
+.wallet-monthly-table .lbl,
+.monthly-income-wrp .lbl{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+}
+.wallet-monthly-table .val{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4E3292;
+}
+.wallet-monthly-table .total{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #4E3292;
+}
+.monthly-income-wrp{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 15px 10px;
+	background-color: #F6F6F6
+}
+.monthly-income-wrp > span > span{
+	display: block;
+	text-align: center;
+}
+.monthly-income-wrp > span > span img{
+	width: 8px;
+	height: 8px;
+	margin-right: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.monthly-income-wrp > span > span:last-child{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #4E3292;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/*claimed*/
+.reward-claimed-wrap{
+	padding-top: 30px;
+	margin-top: 30px;
+	border-top: 0.5px solid #E5E5E5;
+}
+.r-c-lbl{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	color: #6A7587;
+	margin-bottom: 10px;
+}
+/*transaction*/
+.transaction-container{
+	margin-top: 10px;
+}
+.transaction-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 0.5px solid #E5E5E5;
+}
+.transaction-row .trans-thumb-wrap{
+	width: 40px;
+	height: 40px;
+	margin: auto 0px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+.transaction-row .trans-thumb-wrap.drpd-icon{
+	border-radius: 0px;
+}
+.transaction-row .trans-thumb-wrap img{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 0;
+}
+.transaction-row .trans-details-wrap{
+	margin: auto 0px;
+	box-sizing: border-box;
+}
+.transaction-row .trans-title{
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	color: #6A7587;
+	margin-bottom: 5px;
+}
+.transaction-row .trans-title span{
+	font-weight: 600;
+}
+.transaction-row .trans-date{
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: 400;
+	color: #6A7587;
+}
+.transaction-row .trans-bal {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #6A7587;
+	margin: auto 0px;
+}
+.transaction-row .trans-bal span{
+	margin-left: 5px;
+}
+.transaction-row .trans-bal img{
+	width: 10px;
+}

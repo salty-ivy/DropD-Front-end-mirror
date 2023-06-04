@@ -1,0 +1,65 @@
+.knowbetter-wrapper{
+    width:300px;
+}
+.knowbetter-text-container{
+    width:300px;
+    /*position: absolute; */
+    /*top: 17%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%); */
+}
+.knowbetter-text{
+    font-size: 32px;
+    width: 250px;
+    font-weight: 600;
+    color: #4e3292;
+    margin-bottom: 15px;
+}
+.knowbetter-description{
+        width: 230px;
+        /*position: absolute;*/
+        top: 28%;
+        font-size: 14px;
+        font-weight: 400;
+        /*left: 41%;*/
+        /*transform: translate(-50%, -50%);*/
+        color: #6a7587;
+}
+.knowbetter-container{
+    width:300px;
+    /*position: absolute;*/
+    /*top: 45%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+.knowbetter-input-box-wrapper{
+    /*position: absolute; */
+    width:300px;
+    /*height:600px;*/
+    /*top: 80%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+.input-support-text{
+    padding-left: 18px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #6a7587;
+}
+.marital-status{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: white;
+    border:none;
+    padding: 0px 15px;
+}
+.language-preference{
+    width: 220px;
+    height: 42px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    border:none;
+}

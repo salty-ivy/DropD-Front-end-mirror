@@ -1,0 +1,80 @@
+.inner-pages-container{
+	width: 100vw;
+	min-height: calc(100vh - 65px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F6F6F6;
+}
+.inner-pages-container-wrap{
+	width: 340px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.page-title{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #000000;
+	text-align: left;
+}
+.create-club-progress-wrap{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.create-club-progress-wrap div{
+	width: 155px;
+	height: 4px;
+	border-radius: 6px;
+	border: none;
+}
+.create-club-progress-wrap div.active{
+	background: #C387C3;
+}
+.create-club-progress-wrap div.inactive{
+	background: #E5E5E5;
+}
+.create-club-form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.create-club-form #outlined-basic{
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	padding: 18px 15px;
+	background: #FFFFFF;
+	border: 1px solid #6A7587;
+	box-sizing: border-box;
+	border-radius: 12px;
+	margin-bottom: 24px;
+}
+.desc-field #outlined-basic{
+	height: 150px;
+}
+.club-search-field{
+	position: relative;
+}
+.club-cat-search-button{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 9px;
+	right: 9px;
+}
+.cc-categories-wrap{
+	margin-bottom: 30px;
+}
+.cc-categories-wrap span{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #6A7587;
+	margin: 0px 15px 15px 15px;
+	display: inline-block;
+}
